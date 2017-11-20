@@ -1,0 +1,70 @@
+.blogpost-container {
+  width: 75%;
+  margin: auto;
+}
+
+.mainimage {
+  width: 100%;
+  height: 43vh;
+  border: 1px solid rgb(20,20,20);
+}
+
+.mainimage img {
+  width: 100%;
+  height: 100%;
+}
+
+.bloginfo {
+  width: 100%;
+  margin: 10px 20px 0px 20px;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.date p {
+  margin-bottom: 15px;
+  color: rgb(180,180,180);
+}
+
+.author {
+  font-style: italic;
+}
+
+.author span {
+  color: rgb(175, 94, 188);
+}
+
+.blurb p {
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: left;
+  width: 70%;
+}
+
+.blog-linebreak {
+  margin: 30px auto;
+  width: 30%;
+  border-bottom: 1px solid rgb(20,20,20);
+}
+
+.mainwriting {
+  width: 60%;
+  text-align: justify;
+  margin: auto;
+  margin-bottom: 40px;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.maingwriting ol {
+  padding-left: .5em;
+}
+.mainwriting li {
+  font-weight: 700;
+  list-style-position: inside;
+  margin-left: 1em;
+}
+
+.mainwriting p {
+  font-weight: normal;
+}

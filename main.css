@@ -1,0 +1,576 @@
+/* -------CSS Settings------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* -------Two or More Pages------- */
+
+html ,
+body {
+  background-color: rgb(20,20,20);
+}
+
+.bold {
+  font-weight: 700;
+}
+
+p ,
+h1 ,
+h2 ,
+h3 {
+  cursor: default;
+}
+
+a {
+  color: rgb(20, 20, 20);
+}
+
+a:hover {
+  color: rgb(175, 94, 188);
+}
+
+h4 {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-weight: 300;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+p {
+  font-family: 'PT Sans Narrow', sans-serif;
+  color: rgb(20,20,20);
+}
+
+li {
+  font-family: 'PT Sans Narrow', sans-serif;
+  color: rgb(20,20,20);
+}
+
+.maincontainer {
+  position: fixed;
+  left: 16%;
+  top: 0;
+  width: 84%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(255,250,250);
+}
+
+.title {
+  width: 80%;
+  height: 8vh;
+  margin: auto;
+  margin-top: 6vh;
+  margin-bottom: 3px;
+}
+
+.title h2 {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(20,20,20);
+  letter-spacing: 10px;
+  width: 100%;
+  border-bottom: 1px solid rgb(20,20,20);
+  margin-top: 4vh;
+}
+
+.sidebar {
+  width: 15%;
+  height: 98vh;
+  position: absolute;
+  bottom: 8vh;
+  top: 1vh;
+}
+
+.sidebar ul {
+  height: 60%;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.sidebar li {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  color: rgb(255,250,250);
+  text-transform: uppercase;
+  font-size: 0.9em;
+  display: block;
+  margin: 60% auto;
+}
+
+.sidebar p {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  color: rgb(255,250,250);
+  text-transform: uppercase;
+}
+
+.sidebar a {
+  color: rgb(255,250,250);
+}
+
+.sidebar a:hover {
+  position: relative;
+  top: 1px;
+  color: rgb(175, 94, 188);
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  margin-top: 3%;
+  margin-bottom: 20%;
+}
+
+.logo img {
+  width: 100%;
+  height: 100%;
+}
+
+/* -------Home Page--------*/
+
+.mainlogo {
+  margin: auto;
+  margin-top: 20%;
+  margin-bottom: 0%;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  right: 15px;
+
+}
+
+.mainlogo img {
+  width: 100%;
+  height: 100%;
+}
+
+
+.header h1 {
+  margin: auto;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  color: rgb(255,250,250);
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.2em;
+  letter-spacing: 10px;
+
+}
+
+.navigation {
+  margin: auto;
+  text-align: center;
+
+}
+
+.navigation li {
+  display: inline-block;
+  margin: 0 20px;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  color: rgb(255,250,250);
+  text-transform: uppercase;
+  font-size: 0.75em;
+}
+
+.navigation a {
+  color: rgb(255,250,250);
+}
+
+.navigation li:hover {
+  position: relative;
+  top: 1px;
+}
+
+.navigation a:hover {
+  color: rgb(175, 94, 188);
+}
+
+/* -------About Page------- */
+
+
+.container {
+  width: 80%;
+  height: 35vh;
+  margin: auto;
+  display: grid;
+  grid-template: repeat(10, 1fr) / repeat(20, 1fr);
+}
+
+.box {
+  writing-mode: vertical-rl;
+  transform: rotate(-180deg);
+}
+
+.box:hover {
+  box-shadow: 0 0 1em rgb(20,20,20);
+  color: rgb(175, 94, 188);
+  text-shadow: 0 0 1em rgb(175, 94, 188);
+}
+
+.box p {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-weight: 100;
+  color: rgb(20,20,20);
+  letter-spacing: 5px;
+  font-size: 0.8em;
+  width: 100%;
+  margin-top: 5px;
+  margin-right: 13px;
+}
+
+.box p:hover {
+  color: rgb(175,94,188);
+  cursor: pointer;
+}
+
+.box a:active {
+  position: relative;
+  top: 5px;
+}
+
+.a {
+  grid-area: 1 / 20 / span 10 / span 1;
+}
+
+
+.b {
+  grid-area: 1 / 19 / span 10 / span 1;
+}
+
+.c {
+  grid-area: 1/ 18 / span 10 / span 1;
+}
+
+.d {
+  grid-area: 1 / 17 / span 10 / span 1;
+}
+
+.name {
+  grid-area: 1 / 1 / span 10 / span 16;
+}
+
+.name p {
+  font-family: 'Yellowtail', cursive;
+  font-size: 70px;
+  margin: auto;
+  margin-top: 70px;
+}
+
+.about-picture {
+  grid-area: 1 / 6 / span 10 / span 9;
+}
+
+.about-picture img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin-left: 10%;
+  border: 1px solid rgb(20,20,20);
+}
+
+#next {
+  position: relative;
+}
+
+.about-info {
+  grid-area: 5 / 2 / span 5 / span 4;
+  text-align: center;
+  padding: 30% 0;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  color: rgb(20,20,20);
+  letter-spacing: 2px;
+  font-size: 23px;
+
+}
+
+#pie {
+  color: rgb(255,145,0);
+  font-size: 40px;
+}
+
+#orchestrate {
+  font-size: 20px;
+  grid-area: 3 / 2 / span 5 / span 4;
+  color: rgb(10,145,23);
+  margin-right: 15px;
+}
+
+#figs {
+  color: rgb(97,97,97);
+  font-size: 40px;
+}
+
+
+/* This is description version 1 */
+
+.container2 {
+  width: 80%;
+  height: 37vh;
+  border-radius: 5px 5px 5px 5px;
+  margin: auto;
+  margin-top: 10px;
+  display: grid;
+  grid-template: 100% / 65% 35%;
+}
+
+.description {
+  grid-area: 1 / 1 / span 4 / span 2;
+  width: 98%;
+  height: 96%;
+  font-size: 0.9em;
+  text-align: justify;
+  letter-spacing: 0px;
+  padding: 35px 75px;
+  margin: auto;
+  line-height: 22px;
+  border: 1px solid rgb(20,20,20);
+}
+
+.company-description {
+  grid-area: 1 / 1 / span 1 / span 1;
+  padding: 20px;
+  padding-right: 30px;
+  font-size: .9em;
+  overflow: scroll;
+  text-align: justify;
+}
+
+.company-description h4 {
+  margin-bottom: 10px;
+}
+
+.company-description p {
+  margin-bottom: 15px;
+}
+
+.highlights {
+  grid-area: 1 / 2 / span 1 / span 1;
+  border: 2px solid rgb(20,20,20);
+  text-align: center;
+}
+
+.highlights h4 {
+  margin: 15px;
+  font-size: 1.1em;
+}
+
+.highlights li {
+  margin-bottom: 10px;
+  margin-left: 80px;
+  text-align: left;
+}
+
+.next {
+  grid-area: 1 / 1 / span 4 / span 2;
+  width: 98%;
+  height: 96%;
+  margin: auto;
+  text-align: center;
+}
+
+.next p {
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin: 40px;
+  text-transform: uppercase;
+  font-size: .9em;
+}
+
+#override {
+  cursor: pointer;
+}
+
+
+
+/* --------Causes Page------- */
+
+.cause {
+  width: 80%;
+  margin: auto;
+  padding: 10px 0;
+}
+
+.cause a:hover {
+  color: rgb(175, 94, 188);
+}
+
+.cause-company h3 {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-weight: 100;
+  text-transform: uppercase;
+  color: rgb(20,20,20);
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+}
+
+.cause-location {
+  font-family: 'PT Sans Narrow', sans-serif;
+  color: rgb(20,20,20);
+}
+
+.cause-website {
+  font-family: 'PT Sans Narrow', sans-serif;
+  margin-bottom: 25px;
+}
+
+.cause-website a {
+  color: rgb(20,20,20);
+}
+
+.cause-description {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 0.9em;
+  color: rgb(20,20,20);
+  margin-bottom: 10px;
+}
+
+.cause-description a {
+  color: rgb(20,20,20);
+}
+
+.linebreak {
+  width: 80%;
+  border: .5px solid rgb(20,20,20);
+  margin: 10px auto;
+}
+
+/* -------Contact Page------ */
+
+
+.contact-info {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+.contact-info p ,
+.contact-info a {
+  font-family: 'PT Sans Narrow', sans-serif;
+  color: rgb(20,20,20);
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+
+.button {
+  width: 100px;
+  height: 35px;
+  border: 1px solid rgb(20,20,20);
+  padding: 6px 0;
+  margin: auto;
+  text-transform: uppercase;
+}
+
+.button:hover {
+  box-shadow: 0 0 1em rgb(20,20,20);
+}
+
+.button:active {
+  position: relative;
+  top: 1px;
+}
+
+.button a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.button a:hover {
+  color: rgb(175, 94, 188);
+}
+
+/* -------Blog Page------- */
+
+.blogcontainer {
+  width: 80%;
+  height: 74vh;
+  margin: auto;
+  margin-top: 2vh;
+  border: 1px solid rgb(20,20,20);
+  display: grid;
+  grid-template: repeat(10, 1fr) / repeat(10, 1fr);
+}
+
+.post {
+  border: 1px solid rgb(20,20,20);
+  text-align: center;
+  position: relative;
+}
+
+.post img {
+  width: 100%;
+  height: 100%;
+}
+
+/* Hidden Start */
+
+.post p {
+  color: black;
+  background-color: rgb(255,250,250);
+  font-family: 'PT Sans Narrow', sans-serif;
+  letter-spacing: 1px;
+  visibility: hidden;
+}
+
+.blog-1 p {
+  position: absolute;
+  top: 40%;
+  left: 13%;
+}
+
+/* Hidden End */
+
+.blog-1 {
+  grid-area: 1 / 1 / span 2 / span 3;
+}
+
+
+.blog-2 {
+  grid-area: 1 / 4 / span 4 / span 3;
+}
+
+.blog-3 {
+  grid-area: 1 / 7 / span 2 / span 4;
+}
+
+.blog-4 {
+  grid-area: 3 / 1 / span 2 / span 3;
+}
+
+.blog-5 {
+  grid-area: 3 / 7 / span 2 / span 2;
+}
+
+.blog-6 {
+  grid-area: 3 / 9 / span 2 / span 2;
+}
+
+.blog-7 {
+  grid-area: 5 / 1 / span 2 / span 2;
+}
+
+.blog-8 {
+  grid-area: 5 / 3 / span 2 / span 2;
+}
+
+.blog-9 {
+  grid-area: 5 / 5 / span 2 / span 4;
+}
+
+.blog-10 {
+  grid-area: 5 / 9 / span 6 / span 2;
+}
+
+.blog-11 {
+  grid-area: 7 / 1 / span 4 / span 4;
+}
+
+.blog-12 {
+  grid-area: 7 / 5 / span 4 / span 4;
+}
