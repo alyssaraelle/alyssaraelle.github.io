@@ -61,7 +61,8 @@ li {
 
 .title {
   width: 80%;
-  height: 8vh;
+  height: auto;
+  font-size: 1em;
   margin: auto;
   margin-top: 6vh;
   margin-bottom: 2%;
@@ -132,7 +133,7 @@ li {
   height: 100%;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 620px) {
   .sidebar {
     width: 100%;
     height: 85px;
@@ -239,7 +240,7 @@ li {
   color: rgb(175, 94, 188);
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 620px) {
   .mainpage {
     width: 100%;
     position: absolute;
@@ -362,7 +363,7 @@ li {
   font-size: 40px;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 620px) {
   .container {
     display: block;
     height: auto;
@@ -440,16 +441,17 @@ li {
   border: 2px solid rgb(20,20,20);
   text-align: center;
   padding: 5%;
+  overflow: hidden;
 }
 
 .highlights h4 {
-  margin: 15px;
+  margin: 0 5% 5% 5%;
   font-size: 1.1em;
 }
 
 .highlights li {
-  margin-bottom: 10px;
-  margin-left: 80px;
+  margin-bottom: 5%;
+  margin-left: 15%;
   text-align: left;
 }
 
@@ -473,7 +475,7 @@ li {
   cursor: pointer;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 620px) {
   .container2 {
     width: 90%;
     height: auto;
@@ -486,6 +488,10 @@ li {
     display: block;
     width: 100%;
   }
+}
+
+@media screen and (max-height: 600px) {
+
 }
 
 
@@ -602,7 +608,6 @@ li {
 .post {
   border: 1px solid rgb(20,20,20);
   text-align: center;
-  position: relative;
 }
 
 .post img {
@@ -677,7 +682,7 @@ li {
   grid-area: 7 / 5 / span 4 / span 4;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 620px) {
   .blogcontainer {
     margin-bottom: 30px;
     grid-template: repeat(12, 1fr) / 100%;
@@ -740,4 +745,17 @@ li {
     grid-area: 12 / 1 / span 1 / span 1;
   }
 
+}
+
+@media screen and (max-height: 500px) {
+  .blogcontainer {
+    height: auto;
+    margin-top: 4%;
+  }
+
+  .post img {
+    height: 100%;
+    width: 100%;
+    display: block;
+  }
 }
