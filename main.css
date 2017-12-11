@@ -490,10 +490,6 @@ li {
   }
 }
 
-@media screen and (max-height: 600px) {
-
-}
-
 
 /* --------Causes Page------- */
 
@@ -747,7 +743,7 @@ li {
 
 }
 
-@media screen and (max-height: 500px) {
+@media screen and (max-height: 620px) {
   .blogcontainer {
     height: auto;
     margin-top: 4%;
