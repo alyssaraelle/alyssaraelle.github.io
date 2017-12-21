@@ -203,6 +203,7 @@ li {
 
 .header h1 {
   margin: 1% auto;
+  margin-bottom: 0.3%;
   font-family: 'Alegreya Sans SC', sans-serif;
   color: rgb(255,250,250);
   text-transform: uppercase;
