@@ -216,7 +216,6 @@ li {
 .navigation {
   margin: auto;
   text-align: center;
-
 }
 
 .navigation li {
@@ -242,10 +241,15 @@ li {
 }
 
 @media screen and (max-width: 620px) {
+
   .mainpage {
     width: 100%;
     position: absolute;
     top: 15%;
+  }
+
+  .navigation {
+    margin-top: 5%;
   }
 
 }
